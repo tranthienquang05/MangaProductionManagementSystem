@@ -9,7 +9,7 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.manga</groupId>
-	<artifactId>MangaProductionManagement</artifactId>
+	<artifactId>Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MangaProductionManagement</name>
 	<description>MangaProductionManagement</description>
