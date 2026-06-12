@@ -1,4 +1,12 @@
-package com.manga.mangaproductionmanagement.user;
+package com.manga.mangaproductionmanagement.module.user;
 
-public class UserRepository {
+import com.manga.mangaproductionmanagement.entity.User;
+import java.util.Optional;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Integer> {
+    Optional<User> findByEmail(String email);
+    Optional<User> findByFullName(String fullName);
 }
